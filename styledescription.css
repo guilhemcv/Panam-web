@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 500;
+}
+
+header {
+    height: 70px;
+    background-color: red;
+}
+
+img {
+
+    width: 100%;
+}
+
+#description {
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 20px auto;
+    text-align: center;
+}
+
+#description p {
+    text-align: justify;
+    margin: 40px auto;
+}
+
+h2 {
+    margin: 60px auto;
+    text-align: center;
+    border-top: 1px solid black;
+    padding-top: 30px;
+}
+
+h3 {
+    margin: 20px auto;
+    text-align: center;
+
+}
