@@ -2,6 +2,9 @@ body {
     margin: 0;
     font-family: 'Comfortaa', cursive;
     font-weight: 500;
+    min-width: 300px;
+
+
 }
 
 header {
@@ -9,19 +12,33 @@ header {
     background-color: red;
 }
 
-img {
-
+.mobile {
     width: 100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+}
+
+.pic {
+    margin: 20px auto;
+    width: 100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.intro {
+    font-style: italic;
 }
 
 #description {
-    width: 90%;
+
+    min-width: 300px;
     margin: 0 auto;
+    width: 50%;
 }
 
 h1 {
     margin: 20px auto;
     text-align: center;
+    text-decoration: underline;
 }
 
 #description p {
@@ -39,5 +56,90 @@ h2 {
 h3 {
     margin: 20px auto;
     text-align: center;
+    text-decoration: underline;
+
+}
+
+.etage {
+    margin : 20px auto;
+    padding : 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    max-width: 500px;
+}
+
+
+@media screen and (min-width: 800px){
+    #description {
+        display: flex; 
+        width: 100%;
+
+    }
+    .mobile {
+        display: none;
+    }
+
+    .droite {
+        display: flex;
+        flex-direction: column;
+        margin: 50px auto;
+        text-align: center;
+        width: 90%;
+        box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;    }
+
+
+    .etage {
+        width: 90%;
+        max-width: none;
+        box-shadow: none;
+        margin: auto 40px;
+        text-justify:inter-word;
+    }
+
+    .intro {
+        margin: auto 40px;
+        width: 90%;
+
+        border-bottom: 1px solid black;
+    }
+
+    h1 {
+        font-size: 40px;
+        text-align: left;
+        
+    }
+
+    h2 {
+        margin: 10px auto;
+        text-align: center;
+        border-top: 1px solid black;
+        padding-top: 20px;
+        text-align: left;
+        border-top: none;
+    }
+    h3 {
+        text-align: left;
+
+    }
+
+    p {
+        text-align: justify;
+    }
+
+    .photo {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        margin: auto;
+   
+    }
+    .pic {
+        width: 20%;
+       
+        margin: 20px 10px 80px 20px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+
+     
+    }
 
 }
