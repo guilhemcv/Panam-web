@@ -1,0 +1,350 @@
+* {
+    font-family: 'comfortaa';
+    margin: 0;
+}
+
+p {
+    text-align: justify;
+}
+
+header {
+    height: 100px;
+    background-color: black;
+}
+
+main {
+    display: column;
+    width: 90%;
+    margin: 20px auto;
+}
+
+main img {
+    margin: 20px auto;
+    width: 100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 10px;
+
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+h2,
+h3 {
+    text-align: center;
+}
+
+.first,
+.second,
+.third {
+    width: 100%;
+    margin: 20px auto;
+    text-align: justify;
+}
+
+
+
+/* ////////////
+
+FOOTER
+
+//////////// */
+
+footer {
+    height: 200px;
+    width: 100%;
+    display: column;
+    margin: 20px auto;
+    padding-top: 50px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.copyright {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    width: 50%;
+}
+
+.copyright p {
+    font-size: 15px;
+}
+
+.copy {
+    height: 10px;
+    fill: white;
+    margin: 0 10px 15px 0;
+}
+
+.wild {
+    display: none;
+
+}
+
+.wild:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+p.contactus {
+    margin-right: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.contactus:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    color: yellow;
+}
+
+.reseau {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.reseau img {
+    height: 30px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.reseau img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.wcs {
+    font-style: italic;
+    color: lightgray;
+}
+
+/* ///////////
+
+FIN footer
+
+/////////// */
+
+
+/* ///////////
+
+LIGHTBOX
+
+/////////// */
+
+.lightbox {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 1em;
+    background: rgba(0, 0, 0, 0.8);
+
+}
+
+.lightbox:target {
+    display: block;
+}
+
+.lightbox span {
+
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* ////////////
+
+FIN LIGHTBOX
+
+////////////
+ */
+
+@media screen and (min-width: 1000px) {
+    main {
+        max-width: 1400px;
+    }
+
+    .display {
+        display: none;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    h2 {
+        text-align: center;
+        height: 40px;
+        width: 800px;
+        margin: 30px auto 60px auto;
+        font-size: 30px;
+        border-bottom: 5px solid black;
+    }
+
+    h3 {
+        margin: 50px auto;
+    }
+
+    .first,
+    .third {
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+    .second {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+
+    .description {
+        display: flex;
+        align-items: center;
+        margin-bottom: 60px;
+    }
+
+    .descriptionreverse {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        margin-bottom: 60px;
+    }
+
+    .description .first .text,
+    .descriptionreverse .second .text,
+    .description .third .text {
+        width: 80%;
+        font-size: 20px;
+        border-bottom: 5px solid black;
+    }
+
+    .text {
+        margin: 50px 10px;
+    }
+
+    .description .image img {
+        width: 100%;
+    }
+
+    a.image {
+        width: 90%;
+    }
+
+    .descriptionreverse .image img {
+        width: 100%;
+    }
+
+
+    .description img,
+    .descriptionreverse img {
+        width: 50%;
+
+    }
+
+    .description img:hover {
+        transform: scale(1.04) rotate(-3deg);
+        transition: 3s;
+        filter: blur(4px);
+    }
+
+    .descriptionreverse img:hover {
+        transform: scale(1.04) rotate(3deg);
+        transition: 3s;
+        filter: blur(4px);
+    }
+
+    .carte {
+        font-size: 20px;
+        height: 150px;
+        margin: 60px auto 0px auto;
+    }
+
+    /* //////////
+
+FOOTER
+
+////////// */
+
+
+    footer {
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        background-color: black;
+        color: white;
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+    .copyright {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+
+    .copy {
+        height: 20px;
+        fill: white;
+        margin: 0 20px 5px 20px;
+    }
+
+    .wild:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+
+    .contactus {
+        margin-right: 30px;
+        font-size: 20px;
+        font-weight: 900;
+    }
+
+    .contactus:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+        color: yellow;
+    }
+
+    .reseau {
+        display: flex;
+        align-items: center;
+        margin-right: 30px;
+    }
+
+    .reseau img {
+        height: 30px;
+        margin-left: 20px;
+        margin-bottom: 5px;
+    }
+
+    .reseau img:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+
+    .wcs {
+        font-style: italic;
+        color: lightgray;
+    }
+
+
+
+}
