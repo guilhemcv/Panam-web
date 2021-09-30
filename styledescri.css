@@ -27,7 +27,7 @@ main img {
     margin: 20px auto;
     width: 100%;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-    border-radius: 10px;
+    border-radius: 5px;
 
 }
 
@@ -36,11 +36,13 @@ h1 {
     text-align: center;
     font-weight: bold;
     text-decoration: underline;
+    margin-bottom: 30px;
 }
 
 h2,
 h3 {
     text-align: center;
+    margin: 30px auto;
 }
 
 .first,
@@ -49,6 +51,11 @@ h3 {
     width: 100%;
     margin: 20px auto;
     text-align: justify;
+    height:max-content;
+}
+
+.text {
+    margin: 30px auto;
 }
 
 
@@ -112,10 +119,11 @@ p.contactus {
 }
 
 .reseau {
-    width: 50%;
+    width: 100%;
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
+    margin-top: 60px;
 }
 
 .reseau img {
@@ -182,8 +190,11 @@ FIN LIGHTBOX
  */
 
 @media screen and (min-width: 1000px) {
+
+
     main {
-        max-width: 1400px;
+        width: auto;
+        padding: 0 15px;
     }
 
     .display {
@@ -200,6 +211,7 @@ FIN LIGHTBOX
         width: 800px;
         margin: 30px auto 60px auto;
         font-size: 30px;
+        padding-bottom: 20px;
         border-bottom: 5px solid black;
     }
 
@@ -236,9 +248,11 @@ FIN LIGHTBOX
     .description .first .text,
     .descriptionreverse .second .text,
     .description .third .text {
-        width: 80%;
-        font-size: 20px;
+        width: 95%;
+        font-size: 25px;
         border-bottom: 5px solid black;
+        line-height: 35px;
+        padding-bottom: 40px;
     }
 
     .text {
@@ -277,9 +291,10 @@ FIN LIGHTBOX
     }
 
     .carte {
-        font-size: 20px;
+        font-size: 25px;
         height: 150px;
         margin: 60px auto 0px auto;
+        line-height: 35px;
     }
 
     /* //////////
@@ -331,7 +346,10 @@ FOOTER
     .reseau {
         display: flex;
         align-items: center;
+        justify-content: end;
         margin-right: 30px;
+        margin-top: 0;
+        width: 100%;
     }
 
     .reseau img {
