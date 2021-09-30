@@ -9,6 +9,7 @@ p {
 
 body {
     background-color: #FAFAF9;
+    margin: 0;
 }
 
 header {
@@ -189,7 +190,7 @@ FIN LIGHTBOX
 ////////////
  */
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 800px) {
 
 
     main {
@@ -209,9 +210,10 @@ FIN LIGHTBOX
         text-align: center;
         height: 40px;
         width: 800px;
-        margin: 30px auto 60px auto;
+        margin: 50px auto 60px auto;
         font-size: 30px;
         padding-bottom: 20px;
+        padding-top: 100Px;
         border-bottom: 5px solid black;
     }
 
