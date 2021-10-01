@@ -1,0 +1,375 @@
+body{
+    font-family: 'Comfortaa', cursive;
+    color : #FAFAF9;
+    margin-left: auto;
+    margin-right:auto;
+}
+h1{
+    color:black;
+    padding-right:  15px;
+    padding-left:  15px ;
+}
+p {
+    width:auto;
+    font-size: 25px;
+    color:black;
+    padding-right:  15px;
+    padding-left:  15px ;
+    margin : auto;
+}
+
+.image{
+    width: 400px;
+    margin: auto;
+    padding: auto;
+    border-radius: 5px;
+    padding-right:  15px;
+    padding-left:  15px ;
+}
+/*NAVBAR*/
+nav {
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 70px;
+  }
+  .navbar-extends {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    list-style-type: none;
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+  }
+  .hamburger {
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    align-items: center;
+    width: 30%;
+  }
+  .title-panam-web {
+    list-style-type: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+  .navbar-desktop {
+    color: white;
+    display: none;
+    width: 100%;
+    align-items: baseline;
+    justify-content: space-around;
+    margin-top:5px;
+    list-style-type: none;
+  }
+  .tabs {
+    padding: 5px;
+  }
+  .tabs:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+  }
+  #hello-paris {
+    padding-top: 10px;
+    padding-bottom:10px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    transition: all 1s ease;
+    cursor: pointer;
+  }
+  #hello-paris img{
+    height:1.8rem;
+    background-color: black;
+  }
+  #hello-paris:hover {
+    transform: translateX(-10px);
+  }
+  .navbar-desktop li i {
+    margin-right: 5px;
+  }
+
+
+/*MONUMENTS*/
+.monuments img{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.monuments h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color:black;
+    font-size: 30px;
+    padding-right: 0 15px;
+    padding-left: 0 15px ;
+}
+
+
+.toureiffel {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+}
+ 
+.arcdetriomphe {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+}
+
+.notredame {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+}
+
+/*MUSEES*/
+
+.musees img{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.musees h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color:black;
+    font-size: 30px;
+    padding-right:  15px;
+    padding-left: 15px ;
+}
+
+
+.louvre {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+}
+
+.bateaumouche {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+}
+
+.moulinrouge {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+}
+
+/*FOOTER*/
+
+footer {
+    height: 200px;
+    width: 100%;
+    display: column;
+    margin: 20px auto;
+    padding-top: 50px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.copyright {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    width: 50%;
+}
+
+.copyright p {
+    font-size: 15px;
+    color:white;
+}
+
+.copy {
+    height: 10px;
+    fill: white;
+    margin: 0 10px 15px 0;
+}
+
+.wild {
+    display: none;
+
+}
+
+.wild:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+p.contactus {
+    margin-right: 30px;
+    font-size: 30px;
+    font-weight: 900;
+    color:white;
+}
+
+.contactus:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    color: yellow;
+}
+
+.reseau {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.reseau img {
+    height: 30px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.reseau img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.wcs {
+    font-style: italic;
+    color: lightgray;
+}
+
+/*RESPONSIVE*/
+
+@media screen and (min-width: 800px) {
+/*NAVBAR*/
+    .hamburger {
+        display: none;
+      }
+      .title-panam-web {
+        margin-left: 30px;
+      }
+      .navbar-desktop {
+        display: flex;
+      }
+      .title-panam-web {
+        display: none;
+      }
+/*MONUMENTS*/
+    .monuments{
+        display: flex;
+    }
+/*MUSEES*/
+    .musees{
+        display: flex;
+    }
+
+/*FOOTER*/
+
+  footer {
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        background-color: black;
+        color: white;
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+    .copyright {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+
+    .copy {
+        height: 20px;
+        fill: white;
+        margin: 0 20px 5px 20px;
+    }
+
+    .wild:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+
+    .contactus {
+        margin-right: 30px;
+        font-size: 20px;
+        font-weight: 900;
+    }
+
+    .contactus:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+        color: yellow;
+    }
+
+    .reseau {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        margin-right: 30px;
+        margin-top: 0;
+        width: 100%;
+    }
+
+    .reseau img {
+        height: 30px;
+        margin-left: 20px;
+        margin-bottom: 5px;
+    }
+
+    .reseau img:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+
+    .wcs {
+        font-style: italic;
+        color: lightgray;
+    }
+}
