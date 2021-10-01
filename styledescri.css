@@ -26,6 +26,16 @@ nav {
    
   }
   
+  .navbar-desktop a {
+      text-decoration: none;
+      color: white;
+  }
+  .navbar-desktop a:hover {
+    text-decoration: none;
+    color: black;
+}
+  
+
   .navbar-extends {
     margin: 0;
     padding: 0;
