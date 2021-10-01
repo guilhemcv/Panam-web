@@ -156,9 +156,9 @@ FOOTER
 //////////// */
 
 footer {
-    height: 200px;
+    height: 150px;
     width: 100%;
-    display: column;
+    display: column; 
     margin: 20px auto;
     padding-top: 50px;
     text-align: center;
@@ -172,17 +172,17 @@ footer {
     justify-content: center;
     align-items: center;
     margin: 10px auto;
-    width: 50%;
+    width: 80%;
 }
 
 .copyright p {
-    font-size: 15px;
+    font-size: 10px;
 }
 
 .copy {
     height: 10px;
     fill: white;
-    margin: 0 10px 15px 0;
+    margin: auto 2px auto 2px;
 }
 
 .wild {
@@ -197,14 +197,26 @@ footer {
 
 p.contactus {
     margin-right: 30px;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 900;
 }
 
-.contactus:hover {
+.contact {
+    text-decoration: none;
+}
+
+.contact:hover {
     transform: scale(1.1);
     transition: 0.5s;
     color: yellow;
+}
+
+.contact:visited {
+    color: white;
+}
+
+.contact:active {
+    color: white;
 }
 
 .reseau {
@@ -212,7 +224,7 @@ p.contactus {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 60px;
+    margin-top: 20px;
 }
 
 .reseau img {
@@ -428,6 +440,15 @@ FOOTER
         align-items: center;
         justify-content: start;
     }
+
+    .copyright p {
+        font-size: 15px;
+    }
+
+    p.contactus {
+        font-size: 25px;
+    }
+
 
     .copy {
         height: 20px;
