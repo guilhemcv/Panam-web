@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="contact.css"/>
+    <script src="contact.js"></script>
+    <link rel="stylesheet" media="screen and (min-width:800px)" href="contact.css" />
+    <title>Page contact</title>
+</head>
+
+<body>
+
+    <nav>
+        <ul class="hamburger">
+          <li>
+            <svg width="20" height="14" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M20 12v2H0v-2h20zm0-6v2H0V6h20zm0-6v2H0V0h20z"
+                fill="#FFF"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </li>
+        </ul>
+        <ul class="navbar-extends">
+          <li id="close-cross">X</li>
+          <li class="tabs">Home</li>
+          <li class="tabs">A voir</li>
+          <li class="tabs">Contact us</li>
+        </ul>
+
+        <ul class="title-panam-web">
+          <li>Hello Paris!</li>
+        </ul>
+        <ul class="navbar-desktop">
+          <li id = "hello-paris"><img src = "images/print_paris.jpg" alt = "logo-tour-eiffel"/>Hello Paris!</li>
+          <li class="tabs"><i class="fas fa-home"></i>Home</li>
+          <li class="tabs"><i class="far fa-eye"></i>A voir</li>
+          <li class="tabs"><i class="fas fa-address-book"></i>Contact us</li>
+        </ul>
+      </nav>
+
+
+<main>
+
+<section class="placement1">
+    <h2 class="titre">Contact</h2>
+    <div class="formulaire">
+            <form action= "https://formspree.io/f/xeqvdevq" method="POST">
+            <div>
+                <input name ="nom" type="text" name="user_name" placeholder="Name">
+            </div>
+            <div>
+                <input name="repondre" type="email" name="user_mail" placeholder="Email">
+            </div>
+            <div class="message">
+                <textarea id="msg" name="user_message" placeholder="Message"></textarea>
+            </div>
+            <button class="btn" type="submit" value="Envoyer">Envoyer</button>
+        </form>
+    </div>
+</section>
+
+
+<section class="placementmap">
+    <h2 class="find">Nous trouver !</h2>
+        <div class="centrer">
+            <a href="https://www.google.fr/maps/@48.8588336,2.2769954,12z" target="blank">
+            <img src="images/print_paris.jpg" alt="Plan de Paris" title="Paris" width="300px" height="300px" class="paris">
+            </a>
+        </div>
+</section>
+
+</main>
+
+
+    <h2 class="about">A propos de nous</h2>
+        <div class="team">
+                <img src="images/portrait 2.jpeg" alt="Guilhem" title="Guilhem" class="photo">
+                <img src="images/francois.jpg" alt="François" title="François" class="photo">
+                <img src="images/portrait 2.jpeg" alt="Guilhem" title="Guilhem" class="photo">
+                <img src="images/francois.jpg" alt="François" title="François" class="photo">
+        </div>
+
+
+<div class="text">
+    <p>Bonjour et merci d'avoir visité notre site maquette. <br />
+    Nous sommes 4 étudiants en formation de Développeur Web et Web Mobile sur le campus de Nantes durant la promo 2021/2022.<br /></p>
+</div>
+
+
+<footer>
+    <div class="copyright">
+        <svg class="copy" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <path
+                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 448c-110.532 0-200-89.451-200-200 0-110.531 89.451-200 200-200 110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200zm107.351-101.064c-9.614 9.712-45.53 41.396-104.065 41.396-82.43 0-140.484-61.425-140.484-141.567 0-79.152 60.275-139.401 139.762-139.401 55.531 0 88.738 26.62 97.593 34.779a11.965 11.965 0 0 1 1.936 15.322l-18.155 28.113c-3.841 5.95-11.966 7.282-17.499 2.921-8.595-6.776-31.814-22.538-61.708-22.538-48.303 0-77.916 35.33-77.916 80.082 0 41.589 26.888 83.692 78.277 83.692 32.657 0 56.843-19.039 65.726-27.225 5.27-4.857 13.596-4.039 17.82 1.738l19.865 27.17a11.947 11.947 0 0 1-1.152 15.518z" />
+        </svg>
+        <p>Coralie, François, Vianney et Guilhem <br><span class="wcs">Wild Code School Nantes</span></p>
+    </div>
+    <div class="reseau">
+        <p class="contactus">Contact Us</p>
+        <img src="images/facebook.png" alt="flaticon.com">
+        <img src="images/instagram.png" alt="flaticon.com">
+        <img src="images/twitter.png" alt="flaticon.com">
+
+    </div>
+</footer>
+
+</body>
+</html>
