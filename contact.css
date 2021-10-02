@@ -258,11 +258,15 @@ img {
         padding-left: 10px;
     }
 
+      #msg {
+        height: 260px;
+      }
 
     .btn {
         border-radius: 4px;
-        width: 100px;
+        width: 150px;
         padding: 0.5em;
+        margin-left: 455px;
     }
 
     .find {
