@@ -1,10 +1,10 @@
 body{
     font-family: 'Comfortaa', cursive;
     background-color : #FAFAF9;
-    padding-left: 15px;
+   /* padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
-    margin-right:auto;
+    margin-right:auto;*/
 }
 .main{
     /*display : flex;
@@ -12,16 +12,16 @@ body{
 }
 h1{
     color:black;
-    padding-right:  15px;
-    padding-left:  15px ;
+    /*padding-right:  15px;
+    padding-left:  15px ;*/
 }
 p {
     width:auto;
     font-size: 25px;
     color:black;
-    padding-right:  15px;
+   /* padding-right:  15px;
     padding-left:  15px ;
-    margin : auto;
+    margin : auto;*/
 }
 
 /*.image{
@@ -125,17 +125,17 @@ nav {
 
 
 .toureiffel {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    display: block;
+    /*flex-direction: column;
+    flex-wrap: wrap;*/
     position: relative;
     justify-content: center;
     align-content: center;
-    margin: auto;
-    padding: auto;
+   /* margin: auto;
+    padding: auto;*/
     height: auto;
     text-align: center;
-    margin-bottom: 10px;
+   /* margin-bottom: 10px;*/
     background-clip: border-box;
     border:1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
@@ -156,16 +156,16 @@ nav {
     margin-bottom : 0;
 }*/
 .arcdetriomphe {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    display: block;
+   /* flex-direction: column;
+    flex-wrap: wrap;*/
     position: relative;
     justify-content: center;
     align-content: center;
-    margin: auto;
-    padding: auto;
+   /* margin: auto;
+    padding: auto;*/
     text-align: center;
-    margin-bottom: 10px;
+   /* margin-bottom: 10px;*/
     background-clip: border-box;
     border:1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
@@ -186,16 +186,16 @@ nav {
 }*/
 
 .notredame {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    display: block;
+    /*flex-direction: column;
+    flex-wrap: wrap;*/
     position: relative;
     justify-content: center;
     align-content: center;
-    margin: auto;
-    padding: auto;
+   /* margin: auto;
+    padding: auto;*/
     text-align: center;
-    margin-bottom: 10px;
+   /* margin-bottom: 10px;*/
     background-clip: border-box;
     border:1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
@@ -236,20 +236,21 @@ nav {
 
 
 .louvre {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    display: block;
+   /* flex-direction: column;
+    flex-wrap: wrap;*/
     position: relative;
     justify-content: center;
     align-content: center;
-    margin: auto;
-    padding: auto;
+   /* margin: auto;
+    padding: auto;*/
     text-align: center;
-    margin-bottom: 10px;
+    /*margin-bottom: 10px;*/
     background-clip: border-box;
     border:1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
     width: 100%;
+    
 }
 .louvreimg{
     border-style: none;
@@ -257,6 +258,7 @@ nav {
     width: 100%;
     vertical-align: middle;
     box-sizing: content-box;
+    
 }
 .louvrebody{
     padding : 1.25rem;
@@ -265,16 +267,16 @@ nav {
     margin-bottom : 0;
 }*/
 .bateaumouche {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    display: block;
+    /*flex-direction: column;
+    flex-wrap: wrap;*/
     position: relative;
     justify-content: center;
     align-content: center;
-    margin: auto;
-    padding: auto;
+    /*margin: auto;
+    padding: auto;*/
     text-align: center;
-    margin-bottom: 10px;
+    /*margin-bottom: 10px;*/
     background-clip: border-box;
     border:1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
@@ -295,9 +297,9 @@ nav {
 }*/
 
 .moulinrouge {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    display: block;
+    /*flex-direction: column;
+    flex-wrap: wrap;*/
     position: relative;
     justify-content: center;
     align-content: center;
@@ -316,7 +318,7 @@ nav {
     width: 100%;
     vertical-align: middle;
     box-sizing: border-box;
-    padding-bottom: 36px;
+    /*padding-bottom: 36px;*/
 }
 .moulinrougebody{
     padding : 1.25rem;
@@ -329,6 +331,44 @@ nav {
 /*.moulinrougetext : last-child{
     margin-bottom : 0;
 }*/
+
+/*BUTTONS*/
+
+button{
+    padding:4px;
+    /*cursor:pointer;*/
+    border-radius:5px;
+    font-size:20px;
+    background-color: black;
+    /*padding-bottom:0px;
+    margin-left: 20%;*/
+    margin-bottom: 5px;
+    margin-left: 70%;
+    opacity: 0.8;
+}
+ button :hover {
+    color:gold;
+}
+button a {
+    color: white;
+}
+
+/*ANIMATION*/
+
+.fade::after{
+    content:"";
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+.fade:hover::after{
+    opacity: 0.2;
+}
 
 /*FOOTER*/
 
