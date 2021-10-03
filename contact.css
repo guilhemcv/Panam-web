@@ -267,6 +267,13 @@ img {
         width: 150px;
         padding: 0.5em;
         margin-left: 455px;
+        filter: drop-shadow(2px 3px 4px #030303);
+
+    }
+
+    .btn:hover {
+      transform: scale(1.1);
+      transition: 0.5s;
     }
 
     .find {
@@ -323,9 +330,28 @@ img {
 
     .photo {
         border-radius: 50%;
-        width: 10%;
+        width: 40%;
+        filter:drop-shadow(2px 5px 4px #030303);
     }
 
+    .Guilhem {
+      width: 300%;
+      text-align: center;
+    }
+
+    .Vianney {
+      width: 300%;
+      text-align: center;
+    }
+    .Coralie {
+      width: 300%;
+      text-align: center;
+    }
+
+    .François {
+      width: 300%;
+      text-align: center;
+    }
 
     .photo:hover{
         transform: scale(1.1);
