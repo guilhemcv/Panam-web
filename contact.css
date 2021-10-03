@@ -195,6 +195,35 @@ img {
     border-radius: 50px;
 }
 
+.photo {
+  border-radius: 50%;
+  width: 40%;
+  filter:drop-shadow(2px 4px 4px #030303);
+}
+
+.Guilhem {
+width: 300%;
+text-align: center;
+font-size: 7px;
+}
+
+.Vianney {
+width: 300%;
+text-align: center;
+font-size: 7px;
+}
+
+.Coralie {
+width: 300%;
+text-align: center;
+font-size: 7px;
+}
+
+.François {
+width: 300%;
+text-align: center;
+font-size: 7px;
+}
 
 
 
