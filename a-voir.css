@@ -1,8 +1,14 @@
 body{
     font-family: 'Comfortaa', cursive;
-    color : #FAFAF9;
+    background-color : #FAFAF9;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-left: auto;
     margin-right:auto;
+}
+.main{
+    /*display : flex;
+    flex-direction: column;*/
 }
 h1{
     color:black;
@@ -18,14 +24,14 @@ p {
     margin : auto;
 }
 
-.image{
+/*.image{
     width: 400px;
     margin: auto;
     padding: auto;
     border-radius: 5px;
     padding-right:  15px;
     padding-left:  15px ;
-}
+}*/
 /*NAVBAR*/
 nav {
     display: flex;
@@ -77,6 +83,10 @@ nav {
     color: black;
     border-radius: 5px;
   }
+  .tabs a{
+      text-decoration: none;
+      color:white;
+  }
   #hello-paris {
     padding-top: 10px;
     padding-bottom:10px;
@@ -98,7 +108,7 @@ nav {
 
 
 /*MONUMENTS*/
-.monuments img{
+/*.monuments img{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -107,51 +117,107 @@ nav {
 .monuments h2{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     color:black;
     font-size: 30px;
-    padding-right: 0 15px;
-    padding-left: 0 15px ;
-}
+}*/
 
 
 .toureiffel {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    position: relative;
     justify-content: center;
     align-content: center;
     margin: auto;
     padding: auto;
+    height: auto;
     text-align: center;
+    margin-bottom: 10px;
+    background-clip: border-box;
+    border:1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    width: 100%;
+
 }
- 
+.toureiffelimg{
+    border-style: none;
+    border-radius: 5px;
+    width: 100%;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+.toureiffelbody{
+    padding : 1.25rem;
+}
+/*.toureiffeltext : last-child{
+    margin-bottom : 0;
+}*/
 .arcdetriomphe {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    position: relative;
     justify-content: center;
     align-content: center;
     margin: auto;
     padding: auto;
     text-align: center;
+    margin-bottom: 10px;
+    background-clip: border-box;
+    border:1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    width: 100%;
 }
+.arcdetriompheimg{
+    border-style: none;
+    border-radius: 5px;
+    width:100%;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+.arcdetriomphebody{
+    padding : 1.25rem;
+}
+/*.arcdetriomphetext : last-child{
+    margin-bottom : 0;
+}*/
 
 .notredame {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    position: relative;
     justify-content: center;
     align-content: center;
     margin: auto;
     padding: auto;
     text-align: center;
+    margin-bottom: 10px;
+    background-clip: border-box;
+    border:1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    width: 100%;
 }
+.notredameimg{
+    border-style: none;
+    border-radius: 5px;
+    width: 100%;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+.notredamebody{
+    padding : 1.25rem;
+}
+/*.notredametext : last-child{
+    margin-bottom : 0;
+}*/
 
 /*MUSEES*/
 
-.musees img{
+/*.musees img{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -166,41 +232,103 @@ nav {
     font-size: 30px;
     padding-right:  15px;
     padding-left: 15px ;
-}
+}*/
 
 
 .louvre {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    position: relative;
     justify-content: center;
     align-content: center;
     margin: auto;
     padding: auto;
     text-align: center;
+    margin-bottom: 10px;
+    background-clip: border-box;
+    border:1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    width: 100%;
 }
-
+.louvreimg{
+    border-style: none;
+    border-radius: 5px;
+    width: 100%;
+    vertical-align: middle;
+    box-sizing: content-box;
+}
+.louvrebody{
+    padding : 1.25rem;
+}
+/*.louvretext : last-child{
+    margin-bottom : 0;
+}*/
 .bateaumouche {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    position: relative;
     justify-content: center;
     align-content: center;
     margin: auto;
     padding: auto;
     text-align: center;
+    margin-bottom: 10px;
+    background-clip: border-box;
+    border:1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    width: 100%;
 }
+.bateaumoucheimg{
+    border-style: none;
+    border-radius: 5px;
+    width: 100%;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+.bateaumouchebody{
+    padding : 1.25rem;
+}
+/*.bateaumouchetext : last-child{
+    margin-bottom : 0;
+}*/
 
 .moulinrouge {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    position: relative;
     justify-content: center;
     align-content: center;
-    margin: auto;
-    padding: auto;
+    /*margin: auto;
+    padding: auto;*/
     text-align: center;
+    /*margin-top: 20px;*/
+    background-clip: border-box;
+    border:1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    width: 100%;
 }
+.moulinrougeimg{
+    border-style: none;
+    border-radius: 5px;
+    width: 100%;
+    vertical-align: middle;
+    box-sizing: border-box;
+    padding-bottom: 36px;
+}
+.moulinrougebody{
+    padding : 1.25rem;
+    /*padding-top: 38px;
+    padding-bottom: 50px;*/
+}
+.moulinrougetitle{
+    padding-top: 2px;
+}
+/*.moulinrougetext : last-child{
+    margin-bottom : 0;
+}*/
 
 /*FOOTER*/
 
@@ -283,9 +411,19 @@ p.contactus {
 }
 
 /*RESPONSIVE*/
-
+@media screen and (min-width: 1300px){
+    /*MONUMENTS*/
+    .monuments{
+        display: flex;
+    }
+/*MUSEES*/
+    .musees{
+        display: flex;
+    }
+}
 @media screen and (min-width: 800px) {
 /*NAVBAR*/
+
     .hamburger {
         display: none;
       }
