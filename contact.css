@@ -197,11 +197,7 @@ p {
 }
 
 
-img {
-    width: 15%;
-    height: auto;
-    border-radius: 50px;
-}
+
 
 .photo {
   border-radius: 50%;
@@ -214,6 +210,87 @@ width: 300%;
 text-align: center;
 font-size: 7px;
 font-style: italic;
+}
+
+
+footer {
+  height: 200px;
+  width: 100%;
+  display: column;
+  margin: 20px auto;
+  padding-top: 50px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.copyright {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+  width: 50%;
+}
+
+.copyright p {
+  font-size: 15px;
+  color:white;
+}
+
+.copy {
+  height: 10px;
+  fill: white;
+  margin: 0 10px 15px 0;
+}
+
+.wild {
+  display: none;
+
+}
+
+.wild:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+p.contactus {
+  margin-right: 30px;
+  font-size: 30px;
+  font-weight: 900;
+  color:white;
+  line-height: 25px;
+}
+
+.contactus:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  color: yellow;
+}
+
+.reseau {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items:flex-start;
+  margin-bottom: 10px;
+}
+
+.sociaux {
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  height: 30px;
+}
+
+.sociaux:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.wcs {
+  font-style: italic;
+  color: lightgray;
 }
 
 
@@ -378,6 +455,73 @@ font-style: italic;
         margin-bottom: 60px;
         padding: 30px;
     }
+
+    /**FOOTER*/
+
+    footer {
+      height: 100px;
+      display: flex;
+      justify-content: space-between;
+      background-color: black;
+      color: white;
+      padding: 0;
+      margin-bottom: 0;
+  }
+
+  .copyright {
+      display: flex;
+      align-items: center;
+      justify-content: start;
+  }
+
+  .copy {
+      height: 20px;
+      fill: white;
+      margin: 0 20px 5px 20px;
+  }
+
+  .wild:hover {
+      transform: scale(1.1);
+      transition: 0.5s;
+  }
+
+  .contactus {
+      margin-right: 30px;
+      font-size: 20px;
+      font-weight: 900;
+  }
+
+  .contactus:hover {
+      transform: scale(1.1);
+      transition: 0.5s;
+      color: yellow;
+  }
+
+  .reseau {
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      margin-right: 30px;
+      margin-top: 0;
+      width: 100%;
+  }
+
+  .sociaux {
+      height: 30px;
+      margin-left: 20px;
+      margin-bottom: 5px;
+      align-items: center;
+  }
+
+  .reseau .sociaux:hover {
+      transform: scale(1.1);
+      transition: 0.5s;
+  }
+
+  .wcs {
+      font-style: italic;
+      color: lightgray;
+  }
 
 
 }
