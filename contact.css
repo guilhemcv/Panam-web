@@ -15,6 +15,10 @@ p {
   margin-top: 20px;
 }
 
+main {
+  width: 100%;
+}
+
 
 
 /**  Barre de navigation*/
@@ -319,11 +323,7 @@ p.contactus {
 
   /**Eléments principaux*/
 
-  main{
-    display: flex;
-    justify-content: space-between;
-    padding: 15px;
-}
+ 
 
   p {
     font-family: "Comfortaa";
