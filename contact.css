@@ -441,6 +441,7 @@ p.contactus {
         flex-direction: column;
         width: 750px;
         height: 600px;
+        padding-top: 40px;
     }
 
     .paris {
@@ -458,6 +459,7 @@ p.contactus {
         display: flex;
         font-size: 30px;
         justify-content: center;
+        padding-top: 25px;
     }
 
 
