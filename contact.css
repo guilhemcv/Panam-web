@@ -2,6 +2,7 @@ body {
     background-color: #FAFAF9;
     margin: 0;
     font-family: "comfortaa";
+    padding: 0;
 
 }
 
@@ -62,16 +63,9 @@ nav {
     list-style-type: none;
   }
 
-  .tabs {
-    padding-top: 30px;
-    padding-bottom: 22px;
-  }
 
-  .tabs:hover {
-    cursor: pointer;
-    background-color: white;
-    color: black;
-  }
+
+
 
   #hello-paris {
     padding-top: 10px;
@@ -142,7 +136,7 @@ input, textarea {
     border-radius: 4px;
     width: 350px;
     box-sizing: border-box;
-    background-color: coral;
+    background-color: rgb(54, 57, 224);
     padding: 0.5em;
     justify-content: center;
     font: 1em sans-serif;
@@ -154,7 +148,7 @@ input, textarea {
 
 
 .btn:hover {
-    background-color: rgb(218, 87, 87);
+    background-color: rgb(111, 113, 238);
 }
 
 .find {
@@ -197,11 +191,9 @@ p {
 }
 
 
-
-
 .photo {
   border-radius: 50%;
-  width: 40%;
+  width: 50%;
   filter:drop-shadow(2px 4px 4px #030303);
 }
 
@@ -210,15 +202,18 @@ width: 300%;
 text-align: center;
 font-size: 7px;
 font-style: italic;
+margin-top: 20px;
+padding-top: 5px;
 }
 
+/* Footer */
 
 footer {
-  height: 200px;
+  height: 150px;
   width: 100%;
   display: column;
-  margin: 20px auto;
-  padding-top: 50px;
+  margin: 20px auto 0;
+  padding-top: 10px;
   text-align: center;
   background-color: black;
   color: white;
@@ -230,18 +225,17 @@ footer {
   justify-content: center;
   align-items: center;
   margin: 10px auto;
-  width: 50%;
+  width: 80%;
 }
 
 .copyright p {
-  font-size: 15px;
-  color:white;
+  font-size: 10px;
 }
 
 .copy {
   height: 10px;
   fill: white;
-  margin: 0 10px 15px 0;
+  margin: auto 2px auto 2px;
 }
 
 .wild {
@@ -256,31 +250,40 @@ footer {
 
 p.contactus {
   margin-right: 30px;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 900;
-  color:white;
-  line-height: 25px;
 }
 
-.contactus:hover {
+.contact {
+  text-decoration: none;
+}
+
+.contact:hover {
   transform: scale(1.1);
   transition: 0.5s;
   color: yellow;
+}
+
+.contact:visited {
+  color: white;
+}
+
+.contact:active {
+  color: white;
 }
 
 .reseau {
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items:flex-start;
-  margin-bottom: 10px;
+  align-items: center;
+  margin-top: 10px;
 }
 
 .sociaux {
-  margin-left: 20px;
-  margin-right: 10px;
-  margin-bottom: 5px;
   height: 30px;
+  margin-left: 20px;
+  margin-bottom: 5px;
 }
 
 .sociaux:hover {
@@ -326,6 +329,23 @@ p.contactus {
       .title-panam-web {
         display: none;
       }
+
+      .tabs {
+        padding-top: 30px;
+        padding-right: 4px;
+        padding-left: 4px;
+        padding-bottom: 22px;
+      }
+
+      .tabs:hover {
+        cursor: pointer;
+        background-color: white;
+        color: black;
+      }
+      .tabs:hover a {
+        color: black;
+      }
+
 
 
 
@@ -457,7 +477,6 @@ p.contactus {
     }
 
     /**FOOTER*/
-
     footer {
       height: 100px;
       display: flex;
@@ -474,6 +493,15 @@ p.contactus {
       justify-content: start;
   }
 
+  .copyright p {
+      font-size: 15px;
+  }
+
+  p.contactus {
+      font-size: 25px;
+  }
+
+
   .copy {
       height: 20px;
       fill: white;
@@ -489,6 +517,8 @@ p.contactus {
       margin-right: 30px;
       font-size: 20px;
       font-weight: 900;
+      padding: 10px;
+      margin: 30px
   }
 
   .contactus:hover {
@@ -510,10 +540,9 @@ p.contactus {
       height: 30px;
       margin-left: 20px;
       margin-bottom: 5px;
-      align-items: center;
   }
 
-  .reseau .sociaux:hover {
+  .sociaux:hover {
       transform: scale(1.1);
       transition: 0.5s;
   }
