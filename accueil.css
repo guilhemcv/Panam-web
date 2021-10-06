@@ -54,8 +54,10 @@ main {
   border-radius: 5px;
   background-position: center;
   display: flex;
-  justify-content: flex-end;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: flex-end;
+  overflow:hidden;
 }
 
 .arc-triomphe {
@@ -70,9 +72,34 @@ main {
   background-position: center;
   border-top: 1px solid grey;
   display: flex;
-  justify-content: flex-end;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: flex-end;
+  overflow:hidden;
 }
+
+.overlay {
+  
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:10;
+  color: white;
+  font-size: 12px;
+  margin-top:10px;
+  padding-top:5px;
+  padding-bottom:5px;
+  
+}
+
+.overlay span {
+
+  padding-left:10px;
+  display: block;
+}
+
 
 .banneer-end-page {
   width: 100%;
@@ -326,6 +353,18 @@ p.contactus {
 .wcs {
     font-style: italic;
     color: lightgray;
+}
+
+.overlay {
+
+  opacity:0;
+  font-size:16px;
+}
+
+.monument:hover .overlay, .arc-triomphe:hover .overlay {
+
+  opacity: 10;
+  
 }
 }
 
