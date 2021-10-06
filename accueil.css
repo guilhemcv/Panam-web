@@ -46,7 +46,6 @@ main {
 .monument {
   width: 100%;
   height: 250px;
-  background-color: brown;
   margin-top: 10px;
   background-image: url("images/notre-dame-g83dbf15eb_1920.jpg");
   background-size: cover;
@@ -58,12 +57,12 @@ main {
   justify-content: space-between;
   align-items: flex-end;
   overflow:hidden;
+  transition:all 2s ease;
 }
 
 .arc-triomphe {
   width: 100%;
   height: 250px;
-  background-color: green;
   margin-top: 10px;
   background-image: url("images/arcdetriomphe3.jpeg");
   background-repeat: no-repeat;
@@ -76,6 +75,7 @@ main {
   justify-content: space-between;
   align-items: flex-end;
   overflow:hidden;
+  transition:all 2s ease;
 }
 
 .overlay {
