@@ -1,6 +1,10 @@
 body{
     font-family: 'Comfortaa', cursive;
     background-color : #FAFAF9;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 0;
    /* padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -71,18 +75,13 @@ nav {
     width: 100%;
     align-items: baseline;
     justify-content: space-around;
-    margin-top:5px;
+    margin-top:0;
     list-style-type: none;
   }
-  .tabs {
+  /*.tabs {
     padding: 5px;
-  }
-  .tabs:hover {
-    cursor: pointer;
-    background-color: white;
-    color: black;
-    border-radius: 5px;
-  }
+  }*/
+  
   .tabs a{
       text-decoration: none;
       color:white;
@@ -250,7 +249,6 @@ nav {
     border:1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
     width: 100%;
-    
 }
 .louvreimg{
     border-style: none;
@@ -258,7 +256,6 @@ nav {
     width: 100%;
     vertical-align: middle;
     box-sizing: content-box;
-    
 }
 .louvrebody{
     padding : 1.25rem;
@@ -338,7 +335,7 @@ button{
     padding:4px;
     /*cursor:pointer;*/
     border-radius:5px;
-    font-size:20px;
+    font-size:15px;
     background-color: black;
     /*padding-bottom:0px;
     margin-left: 20%;*/
@@ -355,7 +352,7 @@ button a {
 
 /*ANIMATION*/
 
-.fade::after{
+/*.fade::after{
     content:"";
     background-color: black;
     width: 100%;
@@ -368,15 +365,15 @@ button a {
 }
 .fade:hover::after{
     opacity: 0.2;
-}
+}*/
 
 /*FOOTER*/
 
 footer {
-    height: 200px;
+    height: 150px;
     width: 100%;
     display: column;
-    margin: 20px auto;
+    margin: 20px auto 0;
     padding-top: 50px;
     text-align: center;
     background-color: black;
@@ -389,18 +386,18 @@ footer {
     justify-content: center;
     align-items: center;
     margin: 10px auto;
-    width: 50%;
+    width: 80%;
 }
 
 .copyright p {
-    font-size: 15px;
+    font-size: 10px;
     color:white;
 }
 
 .copy {
     height: 10px;
     fill: white;
-    margin: 0 10px 15px 0;
+    margin: auto 2px auto 2px;
 }
 
 .wild {
@@ -415,23 +412,30 @@ footer {
 
 p.contactus {
     margin-right: 30px;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 900;
-    color:white;
+   /* color:white;*/
 }
-
-.contactus:hover {
+.contact {
+    text-decoration: none;
+}
+.contact:hover {
     transform: scale(1.1);
     transition: 0.5s;
     color: yellow;
 }
-
+.contact:visited {
+    color: white;
+}
+.contact:active{
+    color: white;
+}
 .reseau {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 60px;
+    margin-top: 20px;
 }
 
 .reseau img {
@@ -460,7 +464,13 @@ p.contactus {
     .musees{
         display: flex;
     }
+/*BUTTONS*/
+    button a{
+        font-size: 20px;;
+    }
+
 }
+
 @media screen and (min-width: 800px) {
 /*NAVBAR*/
 
@@ -476,14 +486,106 @@ p.contactus {
       .title-panam-web {
         display: none;
       }
+      .tabs{
+          padding-top: 30px;
+          padding-bottom: 25px;
+          padding-right: 4px;
+          padding-left :4px;
+      }
+      .tabs:hover {
+        cursor: pointer;
+        background-color: white;
+        color: black;
+       /*border-radius: 5px;*/
+      }
+      .tabs:hover a{
+          color: black;
+      }
 /*MONUMENTS*/
     .monuments{
         display: flex;
+        height:50%;
+        width:100%;
+    }
+    .toureiffel{
+        margin:10px;
+       /* height:auto;*/
+    }
+    .toureiffelbody p{
+        font-size: 15px;
+        text-align: justify;
+        width: 90%;
+    }
+    .toureiffelbody{
+        width: 90%;
+    }
+    .arcdetriomphe{
+        margin:10px;
+    }
+    .arcdetriomphebody p {
+        font-size: 15px;
+        text-align: justify;
+        width: 100%;
+    }
+    .notredame{
+        margin:10px;
+    }
+    .notredamebody p{
+        font-size: 15px;
+        text-align: justify;
+        width: 100%;
     }
 /*MUSEES*/
     .musees{
         display: flex;
+        height:50%;
+        width:100%;
     }
+    .louvre{
+        margin:10px;
+    }
+    .louvrebody p{
+        font-size: 15px;
+        text-align: justify;
+        width: 100%;
+    }
+    .bateaumouche{
+        margin:10px;
+    }
+    .bateaumouchebody p{
+        font-size: 15px;
+        text-align: justify;
+        width: 100%;
+    }
+    .moulinrouge{
+        margin:10px;
+    }
+    .moulinrougebody p{
+        font-size: 15px;
+        text-align: justify;
+        width: 100%;
+    }
+/*BUTTONS */
+
+button{
+    /*padding:4px;
+    cursor:pointer;
+    border-radius:5px;*/
+    font-size:10px;
+    /*background-color: black;
+    padding-bottom:0px;
+    margin-left: 20%;
+    margin-bottom: 5px;
+    margin-left: 70%;
+    opacity: 0.8;*/
+}
+ /*button :hover {
+    color:gold;
+}
+button a {
+    color: white;
+}*/
+
 
 /*FOOTER*/
 
@@ -501,6 +603,14 @@ p.contactus {
         display: flex;
         align-items: center;
         justify-content: start;
+    }
+    .copyright p {
+        font-size: 15px;
+        color: white;
+        
+    }
+    p.contactus{
+        font-size: 25px;
     }
 
     .copy {
