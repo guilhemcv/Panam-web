@@ -119,6 +119,94 @@ main {
   text-decoration: none;
   color:white;
 }
+footer {
+  height: 150px;
+  width: 100%;
+  display: column;
+  margin: 20px auto 0;
+  padding-top: 50px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.copyright {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+  width: 80%;
+}
+
+.copyright p {
+  font-size: 10px;
+}
+
+.copy {
+  height: 10px;
+  fill: white;
+  margin: auto 2px auto 2px;
+}
+
+.wild {
+  display: none;
+
+}
+
+.wild:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+p.contactus {
+  margin-right: 30px;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.contact {
+  text-decoration: none;
+  color:white;
+}
+
+.contact:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  color: yellow;
+}
+
+.contact:visited {
+  color: white;
+}
+
+.contact:active {
+  color: white;
+}
+
+.reseau {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.reseau img {
+  height: 30px;
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+
+.reseau img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.wcs {
+  font-style: italic;
+  color: lightgray;
+}
 
 
 
@@ -167,4 +255,77 @@ main {
 
    color:gold;
   }
+
+  footer {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.copyright p {
+    font-size: 15px;
+}
+
+p.contactus {
+    font-size: 25px;
+}
+
+
+.copy {
+    height: 20px;
+    fill: white;
+    margin: 0 20px 5px 20px;
+}
+
+.wild:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.contactus {
+    margin-right: 30px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.contactus:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    color: yellow;
+}
+
+.reseau {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 30px;
+    margin-top: 0;
+    width: 100%;
+}
+
+.reseau img {
+    height: 30px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.reseau img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.wcs {
+    font-style: italic;
+    color: lightgray;
+}
 }
