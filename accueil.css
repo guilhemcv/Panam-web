@@ -331,3 +331,10 @@ p.contactus {
 
 
 
+@media screen and (min-width: 1500px) {
+
+  .hero {
+
+    background-image:url('images/paris-accueil1.jpg');
+  }
+}
