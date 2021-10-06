@@ -282,6 +282,18 @@ LIGHTBOX
     background-size: contain;
 }
 
+.photo1 {
+    background-image: url('images/siebe-warmoeskerken-0xuP7stoReU-unsplash.jpg');
+}
+
+.photo2 {
+    background-image: url('images/giulia-may-EsBFV86Rnik-unsplash.jpg');
+}
+
+.photo3 {
+    background-image: url('images/richard-hinds-TH8a7L1HJXA-unsplash.jpg');
+}
+
 /* ////////////
 
 FIN LIGHTBOX
