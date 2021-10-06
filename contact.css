@@ -15,10 +15,6 @@ p {
   margin-top: 20px;
 }
 
-main {
-  width: 100%;
-}
-
 
 
 /**  Barre de navigation*/
@@ -126,7 +122,6 @@ nav {
 
 form {
     width: 400px;
-    padding: 1em;
     justify-content: center;
     align-items: flex-end;
 }
@@ -323,7 +318,10 @@ p.contactus {
 
   /**Eléments principaux*/
 
- 
+  main{
+    display: flex;
+    justify-content: space-between;
+}
 
   p {
     font-family: "Comfortaa";
@@ -429,7 +427,6 @@ p.contactus {
     main{
         display: flex;
         justify-content: space-between;
-        padding: 15px;
     }
 
     .placement1 {
@@ -444,7 +441,6 @@ p.contactus {
         flex-direction: column;
         width: 750px;
         height: 600px;
-        padding: 45px;
     }
 
     .paris {
