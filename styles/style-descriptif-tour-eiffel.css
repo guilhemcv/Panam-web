@@ -283,15 +283,15 @@ LIGHTBOX
 }
 
 .photo1 {
-    background-image: url('images/toureiffel2.jpg');
+    background-image: url('../images/toureiffel2.jpg');
 }
 
 .photo2 {
-    background-image: url('images/toureiffel3.jpg');
+    background-image: url('../images/toureiffel3.jpg');
 }
 
 .photo3 {
-    background-image: url('images/toureiffel4.jpg');
+    background-image: url('../images/toureiffel4.jpg');
 }
 
 /* ////////////
