@@ -14,7 +14,7 @@ header {
 .hero {
   width: 100%;
   height: 340px;
-  background-image: url("images/eiffel-tower-3349075__340.webp");
+  background-image: url("images/fabien-maurin-x-S6ZlJ6dP0-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -212,9 +212,9 @@ p.contactus {
 
 @media screen and (min-width: 800px) {
   .hero {
-    background-image: url("images/paris-843229_960_720.webp");
-    background-size: cover;
+    background-image: url('images/fabien-maurin-x-S6ZlJ6dP0-unsplash\ \(1\).jpg');
     height: 600px;
+    
   }
 
   .hero p {
@@ -329,3 +329,6 @@ p.contactus {
     color: lightgray;
 }
 }
+
+
+
