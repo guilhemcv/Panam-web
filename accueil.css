@@ -56,8 +56,7 @@ main {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-end;
-  overflow:hidden;
-
+  overflow: hidden;
 }
 
 .arc-triomphe {
@@ -74,31 +73,28 @@ main {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-end;
-  overflow:hidden;
+  overflow: hidden;
 }
 
 .overlay {
-  
   background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  background: rgba(0, 0, 0, 0.5);
+  /* Black see-through */
   color: #f1f1f1;
   width: 100%;
   transition: .5s ease;
-  opacity:10;
+  opacity: 10;
   color: white;
   font-size: 12px;
-  margin-top:10px;
-  padding-top:5px;
-  padding-bottom:5px;
-  
+  margin-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .overlay span {
-
-  padding-left:10px;
+  padding-left: 10px;
   display: block;
 }
-
 
 .banneer-end-page {
   width: 100%;
@@ -111,23 +107,26 @@ main {
   background-position: center;
   border-top: 1px solid grey;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .text-welcome {
   font-size: 1rem;
   line-height: 25px;
-  
 }
 
-.ville-lumière{
-
-  background-color: black;
+.ville-lumière {
+  font-family: Ephesis;
+  font-size:2rem;
+  background-color:black;
+  margin-top: 20px;
   color: white;
-  margin:0;
-  padding:4px;
-  opacity:0.8;
+  padding: 4px 4px;
+  padding-right:8px;
+  padding-left:8px;
+  border-radius: 5px;
+  opacity: 0.5;
 }
 
 .arc-triomphe button, .monument button {
@@ -135,15 +134,15 @@ main {
   background-color: black;
   border: none;
   opacity: 0.8;
-  margin-bottom:5px;
-  margin-right:5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
 }
 
 .tabs a {
-
   text-decoration: none;
-  color:white;
+  color: white;
 }
+
 footer {
   height: 150px;
   width: 100%;
@@ -156,7 +155,6 @@ footer {
 }
 
 .copyright {
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -176,7 +174,6 @@ footer {
 
 .wild {
   display: none;
-
 }
 
 .wild:hover {
@@ -192,7 +189,7 @@ p.contactus {
 
 .contact {
   text-decoration: none;
-  color:white;
+  color: white;
 }
 
 .contact:hover {
@@ -233,29 +230,36 @@ p.contactus {
   color: lightgray;
 }
 
-
-
 @media screen and (min-width: 800px) {
   .hero {
     background-image: url('images/paris-accueil.jpg');
     height: 600px;
-
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 30px;
   }
-
   .hero p {
-    font-size: 25px;
+    font-size: 48px;
+    margin-top: 100px;
+    font-family: 'Ephesis';
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
   }
-
   main {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 10px;
   }
-  .monument,
-  .arc-triomphe {
+  .monument, .arc-triomphe {
     width: 49.2%;
     height: 480px;
+  }
+  .overlay span {
+    font-size: 1.4rem;
   }
   .text-welcome {
     padding-left: 30px;
@@ -263,24 +267,18 @@ p.contactus {
     font-size: 25px;
     line-height: 35px;
   }
-
   .banneer-end-page {
     height: 300px;
   }
-
   .arc-triomphe button, .monument button {
-
-    padding:4px;
-    cursor:pointer;
-    border-radius:5px;
-    font-size:20px;
+    padding: 4px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
   }
-
-  .arc-triomphe button:hover, .monument button:hover{
-
-   color:gold;
+  .arc-triomphe button:hover, .monument button:hover {
+    color: gold;
   }
-
   footer {
     height: 100px;
     display: flex;
@@ -289,90 +287,69 @@ p.contactus {
     color: white;
     padding: 0;
     margin-bottom: 0;
-}
-
-.copyright {
+  }
+  .copyright {
     display: flex;
     align-items: center;
     justify-content: start;
-}
-
-.copyright p {
+  }
+  .copyright p {
     font-size: 15px;
-}
-
-p.contactus {
+  }
+  p.contactus {
     font-size: 25px;
-}
-
-
-.copy {
+  }
+  .copy {
     height: 20px;
     fill: white;
     margin: 0 20px 5px 20px;
-}
-
-.wild:hover {
+  }
+  .wild:hover {
     transform: scale(1.1);
     transition: 0.5s;
-}
-
-.contactus {
+  }
+  .contactus {
     margin-right: 30px;
     font-size: 20px;
     font-weight: 900;
-}
-
-.contactus:hover {
+  }
+  .contactus:hover {
     transform: scale(1.1);
     transition: 0.5s;
     color: yellow;
-}
-
-.reseau {
+  }
+  .reseau {
     display: flex;
     align-items: center;
     justify-content: end;
     margin-right: 30px;
     margin-top: 0;
     width: 100%;
-}
-
-.reseau img {
+  }
+  .reseau img {
     height: 30px;
     margin-left: 20px;
     margin-bottom: 5px;
-}
-
-.reseau img:hover {
+  }
+  .reseau img:hover {
     transform: scale(1.1);
     transition: 0.5s;
-}
-
-.wcs {
+  }
+  .wcs {
     font-style: italic;
     color: lightgray;
+  }
+  .overlay {
+    opacity: 0;
+    font-size: 16px;
+  }
+  .monument:hover .overlay, .arc-triomphe:hover .overlay {
+    opacity: 10;
+  }
 }
-
-.overlay {
-
-  opacity:0;
-  font-size:16px;
-}
-
-.monument:hover .overlay, .arc-triomphe:hover .overlay {
-
-  opacity: 10;
-  
-}
-}
-
-
 
 @media screen and (min-width: 1500px) {
-
   .hero {
-
-    background-image:url('images/paris-accueil2.jpg');
+    background-image: url('images/paris-accueil2.jpg');
   }
 }
