@@ -57,7 +57,7 @@ main {
   justify-content: space-between;
   align-items: flex-end;
   overflow:hidden;
-  transition:all 2s ease;
+  
 }
 
 .arc-triomphe {
@@ -75,7 +75,6 @@ main {
   justify-content: space-between;
   align-items: flex-end;
   overflow:hidden;
-  transition:all 2s ease;
 }
 
 .overlay {
