@@ -14,6 +14,7 @@ body{
 
 h1{
     color:black;
+    margin-left: 15px;
 }
 p {
     width:auto;
@@ -101,6 +102,7 @@ nav {
     border:1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
     width: 100%;
+    box-shadow: rgba(99,99,99,0.2) 0px 2px 8px 0px;
 }
 .toureiffelimg{
     border-style: none;
@@ -123,7 +125,10 @@ nav {
     border:1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
     width: 100%;
-}
+    box-shadow: -2px 1px 16px -1px rgba(0,0,0,0.61) inset;
+    -webkit-box-shadow: -2px 1px 16px -1px rgba(0,0,0,0.61) inset;
+    -moz-box-shadow: -2px 1px 16px -1px rgba(0,0,0,0.61) inset;;
+} 
 .arcdetriompheimg{
     border-style: none;
     border-radius: 5px;
@@ -145,6 +150,7 @@ nav {
     border:1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
     width: 100%;
+    box-shadow: rgba(99,99,99,0.2) 0px 2px 8px 0px;
 }
 .notredameimg{
     border-style: none;
@@ -169,6 +175,9 @@ nav {
     border:1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
     width: 100%;
+    box-shadow: -2px 1px 16px -1px rgba(0,0,0,0.61) inset;
+    -webkit-box-shadow: -2px 1px 16px -1px rgba(0,0,0,0.61) inset;
+    -moz-box-shadow: -2px 1px 16px -1px rgba(0,0,0,0.61) inset;;
 }
 .louvreimg{
     border-style: none;
@@ -191,6 +200,7 @@ nav {
     border:1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
     width: 100%;
+    box-shadow: rgba(99,99,99,0.2) 0px 2px 8px 0px;
 }
 .bateaumoucheimg{
     border-style: none;
@@ -213,6 +223,9 @@ nav {
     border:1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
     width: 100%;
+    box-shadow: -2px 1px 16px -1px rgba(0,0,0,0.61) inset;
+    -webkit-box-shadow: -2px 1px 16px -1px rgba(0,0,0,0.61) inset;
+    -moz-box-shadow: -2px 1px 16px -1px rgba(0,0,0,0.61) inset;;
 }
 .moulinrougeimg{
     border-style: none;
