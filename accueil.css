@@ -1,0 +1,379 @@
+/*-------------------------Home-----------------------*/
+
+body {
+  font-family: "comfortaa", Arial, Helvetica, sans-serif;
+  background-color: #fafaf9;
+}
+
+header {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: 10px;
+}
+
+.hero {
+  width: 100%;
+  height: 340px;
+  background-image: url("images/fabien-maurin-x-S6ZlJ6dP0-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  border-radius: 5px;
+}
+
+.hero p {
+  color: white;
+  font-size: 1rem;
+  background-color: black;
+  margin: 0;
+  padding: 2px;
+  opacity: 0.8;
+  border-radius: 5px;
+}
+
+main {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.monument {
+  width: 100%;
+  height: 250px;
+  margin-top: 10px;
+  background-image: url("images/notre-dame-g83dbf15eb_1920.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  overflow:hidden;
+  transition:all 2s ease;
+}
+
+.arc-triomphe {
+  width: 100%;
+  height: 250px;
+  margin-top: 10px;
+  background-image: url("images/arcdetriomphe3.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  background-position: center;
+  border-top: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  overflow:hidden;
+  transition:all 2s ease;
+}
+
+.overlay {
+  
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:10;
+  color: white;
+  font-size: 12px;
+  margin-top:10px;
+  padding-top:5px;
+  padding-bottom:5px;
+  
+}
+
+.overlay span {
+
+  padding-left:10px;
+  display: block;
+}
+
+
+.banneer-end-page {
+  width: 100%;
+  height: 250px;
+  margin-top: 10px;
+  background-image: url("images/parisbynight.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  background-position: center;
+  border-top: 1px solid grey;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.text-welcome {
+  font-size: 1rem;
+  line-height: 25px;
+  
+}
+
+.ville-lumière{
+
+  background-color: black;
+  color: white;
+  margin:0;
+  padding:4px;
+  opacity:0.8;
+}
+
+.arc-triomphe button, .monument button {
+  color: white;
+  background-color: black;
+  border: none;
+  opacity: 0.8;
+  margin-bottom:5px;
+  margin-right:5px;
+}
+
+.tabs a {
+
+  text-decoration: none;
+  color:white;
+}
+footer {
+  height: 150px;
+  width: 100%;
+  display: column;
+  margin: 20px auto 0;
+  padding-top: 50px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.copyright {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+  width: 80%;
+}
+
+.copyright p {
+  font-size: 10px;
+}
+
+.copy {
+  height: 10px;
+  fill: white;
+  margin: auto 2px auto 2px;
+}
+
+.wild {
+  display: none;
+
+}
+
+.wild:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+p.contactus {
+  margin-right: 30px;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.contact {
+  text-decoration: none;
+  color:white;
+}
+
+.contact:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  color: yellow;
+}
+
+.contact:visited {
+  color: white;
+}
+
+.contact:active {
+  color: white;
+}
+
+.reseau {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.reseau img {
+  height: 30px;
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+
+.reseau img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.wcs {
+  font-style: italic;
+  color: lightgray;
+}
+
+
+
+@media screen and (min-width: 800px) {
+  .hero {
+    background-image: url('images/paris-accueil.jpg');
+    height: 600px;
+
+  }
+
+  .hero p {
+    font-size: 25px;
+  }
+
+  main {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  .monument,
+  .arc-triomphe {
+    width: 49.2%;
+    height: 480px;
+  }
+  .text-welcome {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .banneer-end-page {
+    height: 300px;
+  }
+
+  .arc-triomphe button, .monument button {
+
+    padding:4px;
+    cursor:pointer;
+    border-radius:5px;
+    font-size:20px;
+  }
+
+  .arc-triomphe button:hover, .monument button:hover{
+
+   color:gold;
+  }
+
+  footer {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.copyright p {
+    font-size: 15px;
+}
+
+p.contactus {
+    font-size: 25px;
+}
+
+
+.copy {
+    height: 20px;
+    fill: white;
+    margin: 0 20px 5px 20px;
+}
+
+.wild:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.contactus {
+    margin-right: 30px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.contactus:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    color: yellow;
+}
+
+.reseau {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 30px;
+    margin-top: 0;
+    width: 100%;
+}
+
+.reseau img {
+    height: 30px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.reseau img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.wcs {
+    font-style: italic;
+    color: lightgray;
+}
+
+.overlay {
+
+  opacity:0;
+  font-size:16px;
+}
+
+.monument:hover .overlay, .arc-triomphe:hover .overlay {
+
+  opacity: 10;
+  
+}
+}
+
+
+
+@media screen and (min-width: 1500px) {
+
+  .hero {
+
+    background-image:url('images/paris-accueil2.jpg');
+  }
+}

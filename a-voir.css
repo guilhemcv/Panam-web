@@ -1,0 +1,547 @@
+/*    MOBILE FIRST */
+
+/* GENERAL */
+body{
+    font-family: 'Comfortaa', cursive;
+    background-color : #FAFAF9;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+h1{
+    color:black;
+}
+p {
+    width:auto;
+    font-size: 25px;
+    color:black;
+}
+
+/*NAVBAR*/
+nav {
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 70px;
+  }
+  .navbar-extends {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    list-style-type: none;
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+  }
+  .hamburger {
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    align-items: center;
+    width: 30%;
+  }
+  .title-panam-web {
+    list-style-type: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+  .navbar-desktop {
+    color: white;
+    display: none;
+    width: 100%;
+    align-items: baseline;
+    justify-content: space-around;
+    margin-top:0;
+    list-style-type: none;
+  }
+  .tabs a{
+      text-decoration: none;
+      color:white;
+  }
+  #hello-paris {
+    padding-top: 10px;
+    padding-bottom:10px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    transition: all 1s ease;
+    cursor: pointer;
+  }
+  #hello-paris img{
+    height:1.8rem;
+    background-color: black;
+  }
+  #hello-paris:hover {
+    transform: translateX(-10px);
+  }
+  .navbar-desktop li i {
+    margin-right: 5px;
+  }
+
+
+/*MONUMENTS*/
+
+
+.toureiffel {
+    display: block;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    height: auto;
+    text-align: center;
+    background-clip: border-box;
+    border:1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    width: 100%;
+}
+.toureiffelimg{
+    border-style: none;
+    border-radius: 5px;
+    width: 100%;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+.toureiffelbody{
+    padding : 1.25rem;
+}
+
+.arcdetriomphe {
+    display: block;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background-clip: border-box;
+    border:1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    width: 100%;
+}
+.arcdetriompheimg{
+    border-style: none;
+    border-radius: 5px;
+    width:100%;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+.arcdetriomphebody{
+    padding : 1.25rem;
+}
+
+.notredame {
+    display: block;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background-clip: border-box;
+    border:1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    width: 100%;
+}
+.notredameimg{
+    border-style: none;
+    border-radius: 5px;
+    width: 100%;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+.notredamebody{
+    padding : 1.25rem;
+}
+
+/*MUSEES*/
+
+.louvre {
+    display: block;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background-clip: border-box;
+    border:1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    width: 100%;
+}
+.louvreimg{
+    border-style: none;
+    border-radius: 5px;
+    width: 100%;
+    vertical-align: middle;
+    box-sizing: content-box;
+}
+.louvrebody{
+    padding : 1.25rem;
+}
+
+.bateaumouche {
+    display: block;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background-clip: border-box;
+    border:1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    width: 100%;
+}
+.bateaumoucheimg{
+    border-style: none;
+    border-radius: 5px;
+    width: 100%;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+.bateaumouchebody{
+    padding : 1.25rem;
+}
+
+.moulinrouge {
+    display: block;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background-clip: border-box;
+    border:1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    width: 100%;
+}
+.moulinrougeimg{
+    border-style: none;
+    border-radius: 5px;
+    width: 100%;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+.moulinrougebody{
+    padding : 1.25rem;
+}
+.moulinrougetitle{
+    padding-top: 2px;
+}
+
+/*BUTTONS*/
+
+button{
+    padding:4px;
+    border-radius:5px;
+    font-size:15px;
+    background-color: black;
+    margin-bottom: 5px;
+    margin-left: 70%;
+    opacity: 0.8;
+}
+ button :hover {
+    color:gold;
+}
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+/*ANIMATION*/
+
+/*Thumbnails*/
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+/*Target*/
+img:hover {
+    transition: 3s;
+    filter: blur(4px);
+
+}
+
+/*FOOTER*/
+
+footer {
+    height: 150px;
+    width: 100%;
+    display: column;
+    margin: 20px auto 0;
+    padding-top: 50px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.copyright {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    width: 80%;
+}
+
+.copyright p {
+    font-size: 10px;
+    color:white;
+}
+
+.copy {
+    height: 10px;
+    fill: white;
+    margin: auto 2px auto 2px;
+}
+
+.wild {
+    display: none;
+
+}
+
+.wild:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+p.contactus {
+    margin-right: 30px;
+    font-size: 20px;
+    font-weight: 900;
+}
+.contact {
+    text-decoration: none;
+}
+.contact:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    color: yellow;
+}
+.contact:visited {
+    color: white;
+}
+.contact:active{
+    color: white;
+}
+.reseau {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.reseau p{
+    color: white;
+}
+
+.reseau img {
+    height: 30px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.reseau img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.wcs {
+    font-style: italic;
+    color: lightgray;
+}
+
+/*RESPONSIVE*/
+@media screen and (min-width: 1300px){
+
+/*MONUMENTS*/
+    .monuments{
+        display: flex;
+    }
+/*MUSEES*/
+    .musees{
+        display: flex;
+    }
+/*BUTTONS*/
+    button a{
+        font-size: 20px;;
+    }
+
+}
+
+@media screen and (min-width: 800px) {
+/*GENERAL*/
+
+    .main{
+        height:700px;
+    }
+/*NAVBAR*/
+
+    .hamburger {
+        display: none;
+      }
+      .title-panam-web {
+        margin-left: 30px;
+      }
+      .navbar-desktop {
+        display: flex;
+      }
+      .title-panam-web {
+        display: none;
+      }
+      .tabs{
+          padding-top: 30px;
+          padding-bottom: 25px;
+          padding-right: 4px;
+          padding-left :4px;
+      }
+      .tabs:hover {
+        cursor: pointer;
+        background-color: white;
+        color: black;
+      }
+      .tabs:hover a{
+          color: black;
+      }
+/*MONUMENTS*/
+    .monuments{
+        display: flex;
+        width:100%;
+        margin-top: 60px;;
+    }
+    .toureiffel{
+        margin:10px;
+    }
+    .toureiffelbody p{
+        font-size: 15px;
+        text-align: justify;
+        width: 90%;
+    }
+    .toureiffelbody{
+        width: 90%;
+    }
+    .arcdetriomphe{
+        margin:10px;
+    }
+    .arcdetriomphebody p {
+        font-size: 15px;
+        text-align: justify;
+        width: 100%;
+    }
+    .notredame{
+        margin:10px;
+    }
+    .notredamebody p{
+        font-size: 15px;
+        text-align: justify;
+        width: 100%;
+    }
+/*MUSEES*/
+    .musees{
+        display: flex;
+        width:100%;
+        margin-top: 60px;
+    }
+    .louvre{
+        margin:10px;
+    }
+    .louvrebody p{
+        font-size: 15px;
+        text-align: justify;
+        width: 100%;
+    }
+    .bateaumouche{
+        margin:10px;
+    }
+    .bateaumouchebody p{
+        font-size: 15px;
+        text-align: justify;
+        width: 100%;
+    }
+    .moulinrouge{
+        margin:10px;
+    }
+    .moulinrougebody p{
+        font-size: 15px;
+        text-align: justify;
+        width: 100%;
+    }
+/*BUTTONS */
+
+button{
+    font-size:10px;
+}
+/*FOOTER*/
+
+  footer {
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        background-color: black;
+        color: white;
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+    .copyright {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+    .copyright p {
+        font-size: 15px;
+        color: white;
+    }
+    p.contactus{
+        font-size: 25px;
+    }
+
+    .copy {
+        height: 20px;
+        fill: white;
+        margin: 0 20px 5px 20px;
+    }
+
+    .wild:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+
+    .contactus {
+        margin-right: 30px;
+        font-size: 20px;
+        font-weight: 900;
+    }
+
+    .contactus:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+        color: yellow;
+    }
+
+    .reseau {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        margin-right: 30px;
+        margin-top: 0;
+        width: 100%;
+    }
+    .reseau p{
+        color: white;
+    }
+
+    .reseau img {
+        height: 30px;
+        margin-left: 20px;
+        margin-bottom: 5px;
+    }
+
+    .reseau img:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+
+    .wcs {
+        font-style: italic;
+        color: lightgray;
+    }
+}
