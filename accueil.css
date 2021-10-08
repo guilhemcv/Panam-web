@@ -58,6 +58,7 @@ main {
   justify-content: space-between;
   align-items: flex-end;
   overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .arc-triomphe {
@@ -69,12 +70,12 @@ main {
   background-size: cover;
   border-radius: 5px;
   background-position: center;
-  border-top: 1px solid grey;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-end;
   overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .overlay {
@@ -106,7 +107,7 @@ main {
   background-repeat: no-repeat;
   border-radius: 5px;
   background-position: center;
-  border-top: 1px solid grey;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
