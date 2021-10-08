@@ -17,7 +17,7 @@ p {
 
 .source {
     margin-top: 5px;
-    font-size: 20px;
+    font-size: 10px;
     font-style: italic;
 
 }
@@ -329,6 +329,11 @@ p.contactus {
   main{
     display: flex;
     justify-content: space-between;
+}
+    .source {
+    font-size: 20px;
+
+
 }
 
   p {
