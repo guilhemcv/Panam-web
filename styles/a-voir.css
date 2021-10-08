@@ -90,7 +90,10 @@ nav {
 
 /*MONUMENTS*/
 
-
+.monuments{
+    padding-right: 10px;
+    padding-left: 10px;
+}
 .toureiffel {
     display: block;
     position: relative;
@@ -99,13 +102,15 @@ nav {
     height: auto;
     text-align: center;
     background-clip: border-box;
-    border:1px solid rgba(0,0,0,.125);
+    border: 1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
     width: 100%;
     box-shadow: rgba(99,99,99,0.2) 0px 2px 8px 0px;
+    margin-bottom: 15px;
 }
 .toureiffelimg{
     border-style: none;
+    border-radius: 5px 5px Opx 0px;
     border-radius: 5px;
     width: 100%;
     vertical-align: middle;
@@ -127,7 +132,8 @@ nav {
     width: 100%;
     box-shadow: -2px 1px 16px -1px rgba(0,0,0,0.61) inset;
     -webkit-box-shadow: -2px 1px 16px -1px rgba(0,0,0,0.61) inset;
-    -moz-box-shadow: -2px 1px 16px -1px rgba(0,0,0,0.61) inset;;
+    -moz-box-shadow: -2px 1px 16px -1px rgba(0,0,0,0.61) inset;
+    margin-bottom: 15px;
 } 
 .arcdetriompheimg{
     border-style: none;
@@ -151,6 +157,7 @@ nav {
     border-radius: .25rem;
     width: 100%;
     box-shadow: rgba(99,99,99,0.2) 0px 2px 8px 0px;
+    margin-bottom: 15px;
 }
 .notredameimg{
     border-style: none;
@@ -165,6 +172,10 @@ nav {
 
 /*MUSEES*/
 
+.musees{
+    padding-right: 10px;
+    padding-left: 10px;
+}
 .louvre {
     display: block;
     position: relative;
@@ -177,7 +188,9 @@ nav {
     width: 100%;
     box-shadow: -2px 1px 16px -1px rgba(0,0,0,0.61) inset;
     -webkit-box-shadow: -2px 1px 16px -1px rgba(0,0,0,0.61) inset;
-    -moz-box-shadow: -2px 1px 16px -1px rgba(0,0,0,0.61) inset;;
+    -moz-box-shadow: -2px 1px 16px -1px rgba(0,0,0,0.61) inset;
+    /*margin-top: 15px;*/
+    margin-bottom: 15px;
 }
 .louvreimg{
     border-style: none;
@@ -201,6 +214,8 @@ nav {
     border-radius: .25rem;
     width: 100%;
     box-shadow: rgba(99,99,99,0.2) 0px 2px 8px 0px;
+    /*margin-top: 15px;*/
+    margin-bottom: 15px;
 }
 .bateaumoucheimg{
     border-style: none;
@@ -225,7 +240,9 @@ nav {
     width: 100%;
     box-shadow: -2px 1px 16px -1px rgba(0,0,0,0.61) inset;
     -webkit-box-shadow: -2px 1px 16px -1px rgba(0,0,0,0.61) inset;
-    -moz-box-shadow: -2px 1px 16px -1px rgba(0,0,0,0.61) inset;;
+    -moz-box-shadow: -2px 1px 16px -1px rgba(0,0,0,0.61) inset;
+    /*margin-top: 15px;*/
+    margin-bottom: 15px;
 }
 .moulinrougeimg{
     border-style: none;
@@ -251,6 +268,7 @@ button{
     margin-bottom: 5px;
     margin-left: 70%;
     opacity: 0.8;
+    margin-top:5px;
 }
  button :hover {
     color:gold;
@@ -263,14 +281,20 @@ button a {
 /*ANIMATION*/
 
 /*Thumbnails*/
-img:hover {
+.monuments img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.musees img:hover {
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 /*Target*/
-img:hover {
+.monuments img:hover {
     transition: 3s;
     filter: blur(4px);
-
+}
+.musees img:hover {
+    transition: 3s;
+    filter: blur(4px);
 }
 
 /*FOOTER*/
@@ -368,10 +392,15 @@ p.contactus {
 /*MONUMENTS*/
     .monuments{
         display: flex;
+        padding-left: 0px;
+        padding-right: 0px;
+
     }
 /*MUSEES*/
     .musees{
         display: flex;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 /*BUTTONS*/
     button a{
@@ -419,6 +448,8 @@ p.contactus {
         display: flex;
         width:100%;
         margin-top: 60px;;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     .toureiffel{
         margin:10px;
@@ -452,6 +483,8 @@ p.contactus {
         display: flex;
         width:100%;
         margin-top: 60px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     .louvre{
         margin:10px;
